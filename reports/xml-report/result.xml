@@ -1,0 +1,9 @@
+<testsuites>
+	<testsuite id="1" tests="2" failures="0" package="/Users/cvsburak/Documents/GitHub/getir/specs/Specs/GetirCases.spec" time="420.999" timestamp="2021-11-02T22:16:35" name="Specification Heading" errors="0" hostname="buraks-mbp">
+		<properties></properties>
+		<testcase classname="Specification Heading" name="Case 1" time="175.627"></testcase>
+		<testcase classname="Specification Heading" name="Case 2" time="245.372"></testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+</testsuites>

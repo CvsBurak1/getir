@@ -1,0 +1,23 @@
+Created by cvsburak on 2.11.2021
+
+This is a concept file with following syntax for each concept.
+# Go to water page
+* Click element by "HomePage_water"
+
+# Click menu button
+* Click element by "HomePage_navigationDrawer"
+
+# Click first item on the product list
+* Click element by "HomePage_products" with index "1"
+
+# Go to cart
+* Click element by "HomePage_goToCart"
+
+# Go to baby care
+* Go to "Baby Care"
+
+# Click third item on the product list
+* Click element by "HomePage_products" with index "3"
+
+# Check if products exist
+* Check if element "HomePage_products" exist

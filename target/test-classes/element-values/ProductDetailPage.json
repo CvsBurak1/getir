@@ -1,0 +1,33 @@
+[
+  {
+    "key":"Product_image",
+    "androidValue":"com.allandroidprojects.getirsample:id/image1",
+    "androidType":"id"
+  },
+  {
+    "key":"Product_addToCartButton",
+    "androidValue":"com.allandroidprojects.getirsample:id/text_action_bottom1",
+    "androidType":"id"
+  },
+  {
+    "key":"Product_buyNowButton",
+    "androidValue":"com.allandroidprojects.getirsample:id/text_action_bottom2",
+    "androidType":"id"
+  },
+  {
+    "key":"Product_name",
+    "androidValue":"*//android.widget.ScrollView[@resource-id='com.allandroidprojects.getirsample:id/scrollbar']/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[1]",
+    "androidType":"xpath"
+  },
+  {
+    "key":"Product_price",
+    "androidValue":"*//android.widget.ScrollView[@resource-id='com.allandroidprojects.getirsample:id/scrollbar']/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[2]",
+    "androidType":"xpath"
+  },
+  {
+    "key":"Product_deliveryInfo",
+    "androidValue":"*//android.widget.ScrollView[@resource-id='com.allandroidprojects.getirsample:id/scrollbar']/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[3]",
+    "androidType":"xpath"
+  }
+]
+

@@ -1,0 +1,20 @@
+Created by cvsburak on 2.11.2021
+
+This is a concept file with following syntax for each concept.
+# Check if the product page opened
+* Check if element "Product_image" exist
+
+# Save product name to context
+* Get element "TITLE" by key "Product_name" and set context to compare
+
+# Save product price to context
+* Get element "PRICE" by key "Product_price" and set context to compare
+
+# Add item to cart
+* Click element by "Product_addToCartButton"
+
+# Buy now
+* Click element by "Product_buyNowButton"
+
+# Check if product's price is <text>
+* Check if element's "Product_price" text contains "1,98"

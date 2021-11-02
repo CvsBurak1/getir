@@ -1,0 +1,69 @@
+[
+  {
+    "key":"HomePage_navigationDrawer",
+    "androidValue":"Open navigation drawer",
+    "androidType":"accessibility id"
+  },
+  {
+    "key":"HomePage_searchButton",
+    "androidValue":"Search",
+    "androidType":"accessibility id"
+  },
+  {
+    "key":"HomePage_notifications",
+    "androidValue":"Notifications",
+    "androidType":"accessibility id"
+  },
+  {
+    "key":"HomePage_goToCart",
+    "androidValue":"Cart",
+    "androidType":"accessibility id"
+  },
+  {
+    "key":"HomePage_snacks",
+    "androidValue":"Snacks",
+    "androidType":"accessibility id"
+  },
+  {
+    "key":"HomePage_electronics",
+    "androidValue":"Electronics",
+    "androidType":"accessibility id"
+  },
+  {
+    "key":"HomePage_water",
+    "androidValue":"Water",
+    "androidType":"accessibility id"
+  },
+  {
+    "key":"HomePage_homeCare",
+    "androidValue":"Home Care",
+    "androidType":"accessibility id"
+  },
+  {
+    "key":"HomePage_babyCare",
+    "androidValue":"Baby Care",
+    "androidType":"accessibility id"
+  },
+  {
+    "key":"HomePage_fruitsAndVegs",
+    "androidValue":"Fruits & Veg",
+    "androidType":"accessibility id"
+  },
+  {
+    "key":"HomePage_products",
+    "androidValue":"com.allandroidprojects.getirsample:id/layout_item",
+    "androidType":"id"
+  },
+  {
+    "key":"HomePage_addToWishList",
+    "androidValue":"com.allandroidprojects.getirsample:id/ic_wishlist",
+    "androidType":"id"
+  },
+  {
+    "key":"Menu_categories",
+    "androidValue":"com.allandroidprojects.getirsample:id/design_menu_item_text",
+    "androidType":"id"
+  }
+]
+
+

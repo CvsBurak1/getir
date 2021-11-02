@@ -1,0 +1,64 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 740milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 740"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 55179"}
+{"logLevel":"info","message":"Listening on port:55179"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.mobile.getir.StepImpl.checkElementText' and 'org.mobile.getir.StepImpl.checkElementText'"}
+{"logLevel":"debug","message":"Found Check if {} elements value equals to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.mobile.getir.StepImpl.checkIfTextInElementList' and 'org.mobile.getir.StepImpl.checkIfTextInElementList'"}
+{"logLevel":"debug","message":"Found Check if {} in element list with {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.mobile.getir.StepImpl.checkIfElementTextContains' and 'org.mobile.getir.StepImpl.checkIfElementTextContains'"}
+{"logLevel":"debug","message":"Found Check if element's {} text contains {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.mobile.getir.StepImpl.clickElemWithIndex' and 'org.mobile.getir.StepImpl.clickElemWithIndex'"}
+{"logLevel":"debug","message":"Found Click element by {} with index {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.mobile.getir.StepImpl.check_text_on_page' and 'org.mobile.getir.StepImpl.check_text_on_page'"}
+{"logLevel":"debug","message":"Found Check if {} on page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.mobile.getir.StepImpl.waitByMilliSeconds' and 'org.mobile.getir.StepImpl.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found Wait {} milliseconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.mobile.getir.StepImpl.waitByMilliSeconds' and 'org.mobile.getir.StepImpl.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found {} milisaniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.mobile.getir.StepImpl.waitBySecond' and 'org.mobile.getir.StepImpl.waitBySecond'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.mobile.getir.StepImpl.waitBySecond' and 'org.mobile.getir.StepImpl.waitBySecond'"}
+{"logLevel":"debug","message":"Found Wait {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.mobile.getir.StepImpl.clickByKey' and 'org.mobile.getir.StepImpl.clickByKey'"}
+{"logLevel":"debug","message":"Found Click element by {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.mobile.getir.StepImpl.setTextToContextWithKey' and 'org.mobile.getir.StepImpl.setTextToContextWithKey'"}
+{"logLevel":"debug","message":"Found Get element {} by key {} and set context to compare in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.mobile.getir.StepImpl.keyShouldNotExist' and 'org.mobile.getir.StepImpl.keyShouldNotExist'"}
+{"logLevel":"debug","message":"Found {} sayfada bulunmamalı. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.mobile.getir.StepImpl.swipe' and 'org.mobile.getir.StepImpl.swipe'"}
+{"logLevel":"debug","message":"Found Swipe times {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.mobile.getir.StepImpl.swipeRandomTimes' and 'org.mobile.getir.StepImpl.swipeRandomTimes'"}
+{"logLevel":"debug","message":"Found Birkaç kez aşağıya kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.mobile.getir.StepImpl.getTextAndContextCompare' and 'org.mobile.getir.StepImpl.getTextAndContextCompare'"}
+{"logLevel":"debug","message":"Found Get element {} by key {} and compare with context, if {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.mobile.getir.StepImpl.goTo' and 'org.mobile.getir.StepImpl.goTo'"}
+{"logLevel":"debug","message":"Found Go to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.mobile.getir.StepImpl.checkifElemExist' and 'org.mobile.getir.StepImpl.checkifElemExist'"}
+{"logLevel":"debug","message":"Found Check if element {} exist in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.mobile.getir.StepImpl.androidBackBtn' and 'org.mobile.getir.StepImpl.androidBackBtn'"}
+{"logLevel":"debug","message":"Found Click Android back button in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tWait {} milliseconds : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tClick Android back button : public void androidBackBtn()"}
+{"logLevel":"debug","message":"\tGet element {} by key {} and compare with context, if {} : public void getTextAndContextCompare(String type, String key, String equal)"}
+{"logLevel":"debug","message":"\t{} sayfada bulunmamalı. : public void keyShouldNotExist(String key) throws InterruptedException"}
+{"logLevel":"debug","message":"\tCheck if element {} exist : public void checkifElemExist(String key)"}
+{"logLevel":"debug","message":"\t{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tGet element {} by key {} and set context to compare : public void setTextToContextWithKey(String type, String key)"}
+{"logLevel":"debug","message":"\tCheck if {} on page : public void check_text_on_page(String text)"}
+{"logLevel":"debug","message":"\tCheck if {} in element list with {} : public void checkIfTextInElementList(String text, String key)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySecond(int seconds)"}
+{"logLevel":"debug","message":"\tCheck if {} elements value equals to {} : public void checkElementText(String key, String text)"}
+{"logLevel":"debug","message":"\tGo to {} : public void goTo(String text)"}
+{"logLevel":"debug","message":"\tBirkaç kez aşağıya kaydır : public void swipeRandomTimes() throws InterruptedException"}
+{"logLevel":"debug","message":"\tClick element by {} : public void clickByKey(String key)"}
+{"logLevel":"debug","message":"\tClick element by {} with index {} : public void clickElemWithIndex(String key, int index)"}
+{"logLevel":"debug","message":"\tCheck if element's {} text contains {} : public void checkIfElementTextContains(String key, String text)"}
+{"logLevel":"debug","message":"\tWait {} seconds : public void waitBySecond(int seconds)"}
+{"logLevel":"debug","message":"\tSwipe times {} : public void swipe(int times) throws InterruptedException"}

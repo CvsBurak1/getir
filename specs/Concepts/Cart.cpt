@@ -1,0 +1,20 @@
+Created by cvsburak on 2.11.2021
+
+This is a concept file with following syntax for each concept.
+# Check if product in the cart
+* Check if element "MyCart_productImage" exist
+
+# Compare product name with context
+* Get element "TITLE" by key "MyCart_productName" and compare with context, if "equal"
+
+# Compare product price with context
+* Get element "PRICE" by key "MyCart_productPrice" and compare with context, if "equal"
+
+# Check if total price is <text>
+* Check if element's "MyCart_totalPrice" text contains <text>
+
+# Remove product from cart
+* Click element by "MyCart_removeProduct"
+
+# Check if cart is empty
+* Check if element's "MyCart_totalPrice" text contains "0.00"

@@ -1,0 +1,17 @@
+[
+  {
+    "key":"WelcomePage_skipButton",
+    "androidValue":"com.allandroidprojects.getirsample:id/btn_skip",
+    "androidType":"id"
+  },
+  {
+  "key":"WelcomePage_nextButton",
+  "androidValue":"com.allandroidprojects.getirsample:id/btn_next",
+  "androidType":"id"
+  },
+  {
+    "key":"WelcomePage_greetText",
+    "androidValue":"*//android.support.v4.view.ViewPager[@resource-id='com.allandroidprojects.getirsample:id/view_pager']/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView",
+    "androidType":"xpath"
+  }
+]

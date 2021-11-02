@@ -1,0 +1,9 @@
+Created by cvsburak on 2.11.2021
+
+This is a concept file with following syntax for each concept.
+# Click skip button
+* Click element by "WelcomePage_skipButton"
+
+# Click next button
+* Click element by "WelcomePage_nextButton"
+

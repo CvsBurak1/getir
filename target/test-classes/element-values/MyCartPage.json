@@ -1,0 +1,41 @@
+[
+  {
+    "key":"MyCart_productImage",
+    "androidValue":"com.allandroidprojects.getirsample:id/image_cartlist",
+    "androidType":"id"
+  },
+  {
+  "key":"MyCart_productName",
+  "androidValue":"*//android.widget.LinearLayout[@resource-id='com.allandroidprojects.getirsample:id/layout_item_desc']/android.widget.TextView[1]",
+  "androidType":"xpath"
+  },
+  {
+    "key":"MyCart_productDetail",
+    "androidValue":"*//android.widget.LinearLayout[@resource-id='com.allandroidprojects.getirsample:id/layout_item_desc']/android.widget.TextView[2]",
+    "androidType":"xpath"
+  },
+  {
+    "key":"MyCart_productPrice",
+    "androidValue":"*//android.widget.LinearLayout[@resource-id='com.allandroidprojects.getirsample:id/layout_item_desc']/android.widget.TextView[3]",
+    "androidType":"xpath"
+  },
+  {
+    "key":"MyCart_productDeliveryInfo",
+    "androidValue":"*//android.widget.LinearLayout[@resource-id='com.allandroidprojects.getirsample:id/layout_item_desc']/android.widget.TextView[4]",
+    "androidType":"xpath"
+  },
+  {
+    "key":"MyCart_removeProduct",
+    "androidValue":"com.allandroidprojects.getirsample:id/layout_action1",
+    "androidType":"id"
+  },
+  {
+    "key":"MyCart_totalPrice",
+    "androidValue":"com.allandroidprojects.getirsample:id/text_action_bottom1",
+    "androidType":"id"
+  }
+]
+
+
+
+

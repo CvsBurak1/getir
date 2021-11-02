@@ -1,0 +1,54 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 624milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 624"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 55962"}
+{"logLevel":"info","message":"Listening on port:55962"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Loading Check if {} elements value equals to {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Check if {} in element list with {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Check if element's {} text contains {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Click element by {} with index {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Check if {} on pagevia reflected sources."}
+{"logLevel":"debug","message":"Loading Wait {} millisecondsvia reflected sources."}
+{"logLevel":"debug","message":"Loading {} milisaniye beklevia reflected sources."}
+{"logLevel":"debug","message":"Loading {} saniye beklevia reflected sources."}
+{"logLevel":"debug","message":"Loading Wait {} secondsvia reflected sources."}
+{"logLevel":"debug","message":"Loading Click element by {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Get element {} by key {} and set context to comparevia reflected sources."}
+{"logLevel":"debug","message":"Loading {} sayfada bulunmamalı.via reflected sources."}
+{"logLevel":"debug","message":"Loading Swipe times {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Birkaç kez aşağıya kaydırvia reflected sources."}
+{"logLevel":"debug","message":"Loading Get element {} by key {} and compare with context, if {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Go to {}via reflected sources."}
+{"logLevel":"debug","message":"Loading Check if element {} existvia reflected sources."}
+{"logLevel":"debug","message":"Loading Click Android back buttonvia reflected sources."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tWait {} milliseconds : null"}
+{"logLevel":"debug","message":"\tClick Android back button : null"}
+{"logLevel":"debug","message":"\t{} sayfada bulunmamalı. : null"}
+{"logLevel":"debug","message":"\tGet element {} by key {} and compare with context, if {} : null"}
+{"logLevel":"debug","message":"\tCheck if element {} exist : null"}
+{"logLevel":"debug","message":"\t{} milisaniye bekle : null"}
+{"logLevel":"debug","message":"\tGet element {} by key {} and set context to compare : null"}
+{"logLevel":"debug","message":"\tCheck if {} on page : null"}
+{"logLevel":"debug","message":"\t{} saniye bekle : null"}
+{"logLevel":"debug","message":"\tCheck if {} in element list with {} : null"}
+{"logLevel":"debug","message":"\tCheck if {} elements value equals to {} : null"}
+{"logLevel":"debug","message":"\tGo to {} : null"}
+{"logLevel":"debug","message":"\tBirkaç kez aşağıya kaydır : null"}
+{"logLevel":"debug","message":"\tClick element by {} : null"}
+{"logLevel":"debug","message":"\tClick element by {} with index {} : null"}
+{"logLevel":"debug","message":"\tCheck if element's {} text contains {} : null"}
+{"logLevel":"debug","message":"\tWait {} seconds : null"}
+{"logLevel":"debug","message":"\tSwipe times {} : null"}
+2021-11-02 20:01:40 INFO  HookImpl:36 beforeScenario - Local Browser
+Nov 02, 2021 8:01:45 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Click element by {}' using 'class org.mobile.getir.StepImpl.clickByKey"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
